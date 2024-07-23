@@ -178,7 +178,7 @@ class Category:
 class ContentApi:
     """ GoPlay Content API"""
     SITE_URL = 'https://www.goplay.be'
-    API_GOPLAY = 'https://api.goplay.be'
+    API_GOPLAY = 'https://api.goplay.be/web/v1/'
 
     def __init__(self, auth=None, cache_path=None):
         """ Initialise object """
