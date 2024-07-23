@@ -18,7 +18,7 @@ PROXIES = kodiutils.get_proxies()
 
 class SearchApi:
     """ GoPlay Search API """
-    API_ENDPOINT = 'https://api.goplay.be/search'
+    API_ENDPOINT = 'https://api.goplay.be/web/v1/search'
 
     def __init__(self):
         """ Initialise object """
